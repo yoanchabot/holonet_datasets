@@ -22,7 +22,7 @@ You can use these datasets for various applications, such as:
 - **Integrating Structured Data**: Seamlessly integrate Star Wars data into applications that require structured data, enhancing user experiences with rich, interconnected information.
 
 ## Cite this Work
-Chabot, Y. (2025). Holonet Galactic Encyclopedia. Retrieved from https://holonetgalacticmap-frontend.vercel.app/
+Yoan Chabot (2025). Holonet Galactic Encyclopedia. Retrieved from https://holonetgalacticmap-frontend.vercel.app/
 
 ## License
 The datasets are licensed under the [Creative Commons Attribution-ShareAlike License](https://creativecommons.org/licenses/by-sa/3.0/). Please attribute Wikidata as the source of the data and include a link to the license.
