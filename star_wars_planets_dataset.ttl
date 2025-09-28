@@ -19,12 +19,6 @@
     schema1:description "1st episode of the 2nd season of The Mandalorian"@en ;
     wdt:P840 <http://www.wikidata.org/entity/Q723764> .
 
-<http://www.wikidata.org/entity/Q101072288> rdfs:label "Earth"@en ;
-    schema1:description "planet Earth as depicted in the Star Wars universe"@en ;
-    wdt:P1080 <http://www.wikidata.org/entity/Q19786052> ;
-    wdt:P31 <http://www.wikidata.org/entity/Q108059870>,
-        <http://www.wikidata.org/entity/Q5327160> .
-
 <http://www.wikidata.org/entity/Q10141551> rdfs:label "Category:Hoth"@en ;
     schema1:description "Wikimedia category"@en ;
     wdt:P301 <http://www.wikidata.org/entity/Q739771> .
@@ -231,7 +225,7 @@
 <http://www.wikidata.org/entity/Q1083824> owl:sameAs <http://www.wikidata.org/entity/Q131751635> .
 
 <http://www.wikidata.org/entity/Q1087845> rdfs:label "Jacen Solo"@en ;
-    schema1:description "character in Star Wars"@en ;
+    schema1:description "fictional character in Star Wars"@en ;
     wdt:P1165 <http://www.wikidata.org/entity/Q719329> .
 
 <http://www.wikidata.org/entity/Q109579560> rdfs:label "Peril on Kashyyyk"@en ;
@@ -379,6 +373,8 @@
 <http://www.wikidata.org/entity/Q117035541> rdfs:label "Star Wars: Brotherhood"@en ;
     schema1:description "2022 novel by Mike Chen"@en ;
     wdt:P840 <http://www.wikidata.org/entity/Q2737940> .
+
+<http://www.wikidata.org/entity/Q11703764> owl:sameAs <http://www.wikidata.org/entity/Q122534060> .
 
 <http://www.wikidata.org/entity/Q11743658> owl:sameAs <http://www.wikidata.org/entity/Q1079899> .
 
@@ -1110,6 +1106,7 @@
 <http://www.wikidata.org/entity/Q122384255> rdfs:label "Brint-wo"@en ;
     schema1:description "Star Wars planet"@en ;
     wdt:P1080 <http://www.wikidata.org/entity/Q3551295> ;
+    wdt:P1441 <http://www.wikidata.org/entity/Q55313> ;
     wdt:P276 <http://www.wikidata.org/entity/Q122042241> ;
     wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
     wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
@@ -1764,18 +1761,6 @@
     wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
     wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
 
-<http://www.wikidata.org/entity/Q122534060> rdfs:label "Sernpidal"@en ;
-    schema1:description "Star Wars planet"@en ;
-    wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
-        <http://www.wikidata.org/entity/Q3551295> ;
-    wdt:P1082 8000000.0 ;
-    wdt:P2146 463.0 ;
-    wdt:P2147 29.0 ;
-    wdt:P2386 11440.0 ;
-    wdt:P276 <http://www.wikidata.org/entity/Q122169819> ;
-    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
-    wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
-
 <http://www.wikidata.org/entity/Q122534157> rdfs:label "Plooma"@en ;
     schema1:description "Star Wars planet"@en ;
     wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
@@ -2090,14 +2075,6 @@
     wdt:P361 <http://www.wikidata.org/entity/Q106382356> .
 
 <http://www.wikidata.org/entity/Q122681848> rdfs:label "Teyr"@en ;
-    schema1:description "Star Wars planet"@en ;
-    wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
-        <http://www.wikidata.org/entity/Q3551295> ;
-    wdt:P276 <http://www.wikidata.org/entity/Q122169846> ;
-    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
-    wdt:P361 <http://www.wikidata.org/entity/Q106382356> .
-
-<http://www.wikidata.org/entity/Q122681888> rdfs:label "Ghorman"@en ;
     schema1:description "Star Wars planet"@en ;
     wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
         <http://www.wikidata.org/entity/Q3551295> ;
@@ -3402,16 +3379,6 @@
     wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
     wdt:P361 <http://www.wikidata.org/entity/Q106398240> .
 
-<http://www.wikidata.org/entity/Q125257781> rdfs:label "Ambria"@en ;
-    schema1:description "planet in Star Wars"@en ;
-    wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
-        <http://www.wikidata.org/entity/Q3551295> ;
-    wdt:P2146 176.0 ;
-    wdt:P2147 32.0 ;
-    wdt:P276 <http://www.wikidata.org/entity/Q122231415> ;
-    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
-    wdt:P361 <http://www.wikidata.org/entity/Q106398240> .
-
 <http://www.wikidata.org/entity/Q125257789> rdfs:label "Zeltros"@en ;
     schema1:description "planet in Star Wars"@en ;
     wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
@@ -3471,6 +3438,10 @@
 <http://www.wikidata.org/entity/Q125307868> rdfs:label "Hoth Ice Planet Adventure Set"@en ;
     schema1:description "1980 Star Wars playset"@en ;
     wdt:P144 <http://www.wikidata.org/entity/Q739771> .
+
+<http://www.wikidata.org/entity/Q12539846> rdfs:label "dagoba"@en ;
+    schema1:description "type of stupa"@en ;
+    wdt:P1889 <http://www.wikidata.org/entity/Q848609> .
 
 <http://www.wikidata.org/entity/Q126708647> owl:sameAs <http://www.wikidata.org/entity/Q104836880> .
 
@@ -3751,6 +3722,7 @@
 <http://www.wikidata.org/entity/Q131544789> rdfs:label "Mykapo"@en ;
     schema1:description "planet in Star Wars"@en ;
     wdt:P1080 <http://www.wikidata.org/entity/Q19786052> ;
+    wdt:P1441 <http://www.wikidata.org/entity/Q114552214> ;
     wdt:P276 <http://www.wikidata.org/entity/Q122231412> ;
     wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
     wdt:P361 <http://www.wikidata.org/entity/Q106379955> .
@@ -4176,7 +4148,7 @@
     wdt:P361 <http://www.wikidata.org/entity/Q106379955> .
 
 <http://www.wikidata.org/entity/Q131749341> rdfs:label "Ando"@en ;
-    schema1:description "planet in Star Wars"@en ;
+    schema1:description "fictional planet in the Star Wars universe"@en ;
     wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
         <http://www.wikidata.org/entity/Q3551295> ;
     wdt:P1082 850000.0 ;
@@ -5532,13 +5504,6 @@
     wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
     wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
 
-<http://www.wikidata.org/entity/Q132184676> rdfs:label "Aldhani"@en ;
-    schema1:description "fictional planet in the Star Wars universe"@en ;
-    wdt:P1080 <http://www.wikidata.org/entity/Q19786052> ;
-    wdt:P1441 <http://www.wikidata.org/entity/Q60462338> ;
-    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
-    wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
-
 <http://www.wikidata.org/entity/Q132184688> rdfs:label "Niamos"@en ;
     schema1:description "fictional planet in the Star Wars universe"@en ;
     wdt:P1080 <http://www.wikidata.org/entity/Q19786052> ;
@@ -5865,6 +5830,116 @@
     schema1:description "fictional humanoid species from the Star Wars universe"@en ;
     wdt:P1165 <http://www.wikidata.org/entity/Q832994> .
 
+<http://www.wikidata.org/entity/Q134997193> owl:sameAs <http://www.wikidata.org/entity/Q837357> .
+
+<http://www.wikidata.org/entity/Q135390537> wdt:P20 <http://www.wikidata.org/entity/Q125257781> .
+
+<http://www.wikidata.org/entity/Q135706353> rdfs:label "Carida"@en ;
+    schema1:description "Star Wars planet"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
+        <http://www.wikidata.org/entity/Q3551295> ;
+    wdt:P1082 25000000.0 ;
+    wdt:P1441 <http://www.wikidata.org/entity/Q55313> ;
+    wdt:P2146 357.0 ;
+    wdt:P2147 25.0 ;
+    wdt:P2386 18324.0 ;
+    wdt:P276 <http://www.wikidata.org/entity/Q122205354> ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
+    wdt:P361 <http://www.wikidata.org/entity/Q106382356> .
+
+<http://www.wikidata.org/entity/Q135706367> rdfs:label "Cirtappa"@en ;
+    schema1:description "Star Wars planet"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q3551295> ;
+    wdt:P1441 <http://www.wikidata.org/entity/Q55313> ;
+    wdt:P276 <http://www.wikidata.org/entity/Q122231424> ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
+    wdt:P361 <http://www.wikidata.org/entity/Q106379955> .
+
+<http://www.wikidata.org/entity/Q135706379> rdfs:label "Denbo"@en ;
+    schema1:description "Star Wars planet"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q3551295> ;
+    wdt:P1441 <http://www.wikidata.org/entity/Q55313> ;
+    wdt:P276 <http://www.wikidata.org/entity/Q122205837> ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
+    wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
+
+<http://www.wikidata.org/entity/Q135706388> rdfs:label "Destreg II"@en ;
+    schema1:description "Star Wars planet"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q3551295> ;
+    wdt:P1441 <http://www.wikidata.org/entity/Q55313> ;
+    wdt:P276 <http://www.wikidata.org/entity/Q122205837> ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
+    wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
+
+<http://www.wikidata.org/entity/Q135706397> rdfs:label "Draik 4"@en ;
+    schema1:description "Star Wars planet"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q3551295> ;
+    wdt:P1441 <http://www.wikidata.org/entity/Q55313> ;
+    wdt:P276 <http://www.wikidata.org/entity/Q122231424> ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
+    wdt:P361 <http://www.wikidata.org/entity/Q106379955> .
+
+<http://www.wikidata.org/entity/Q135711419> rdfs:label "Gal Minor"@en ;
+    schema1:description "Star Wars planet"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q3551295> ;
+    wdt:P1441 <http://www.wikidata.org/entity/Q55313> ;
+    wdt:P276 <http://www.wikidata.org/entity/Q122167603> ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
+    wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
+
+<http://www.wikidata.org/entity/Q135711426> rdfs:label "Roccus"@en ;
+    schema1:description "Star Wars planet"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
+        <http://www.wikidata.org/entity/Q3551295> ;
+    wdt:P1441 <http://www.wikidata.org/entity/Q55313> ;
+    wdt:P276 <http://www.wikidata.org/entity/Q122205836> ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
+    wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
+
+<http://www.wikidata.org/entity/Q135711433> rdfs:label "Luxiar 7"@en ;
+    schema1:description "Star Wars planet"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q3551295> ;
+    wdt:P1441 <http://www.wikidata.org/entity/Q55313> ;
+    wdt:P276 <http://www.wikidata.org/entity/Q122205837> ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
+    wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
+
+<http://www.wikidata.org/entity/Q135711440> rdfs:label "Tolig IV"@en ;
+    schema1:description "Star Wars planet"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q3551295> ;
+    wdt:P1441 <http://www.wikidata.org/entity/Q55313> ;
+    wdt:P276 <http://www.wikidata.org/entity/Q122205837> ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
+    wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
+
+<http://www.wikidata.org/entity/Q135711445> rdfs:label "Tinoon"@en ;
+    schema1:description "Star Wars planet"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
+        <http://www.wikidata.org/entity/Q3551295> ;
+    wdt:P1441 <http://www.wikidata.org/entity/Q55313> ;
+    wdt:P276 <http://www.wikidata.org/entity/Q122167602> ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
+    wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
+
+<http://www.wikidata.org/entity/Q135711453> rdfs:label "Nomlis III"@en ;
+    schema1:description "Star Wars planet"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
+        <http://www.wikidata.org/entity/Q3551295> ;
+    wdt:P1441 <http://www.wikidata.org/entity/Q55313> ;
+    wdt:P276 <http://www.wikidata.org/entity/Q122231421> ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
+    wdt:P361 <http://www.wikidata.org/entity/Q106379955> .
+
+<http://www.wikidata.org/entity/Q135711460> rdfs:label "Bundil"@en ;
+    schema1:description "Star Wars planet"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q3551295> ;
+    wdt:P1441 <http://www.wikidata.org/entity/Q55313> ;
+    wdt:P276 <http://www.wikidata.org/entity/Q122065375> ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
+    wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
+
+<http://www.wikidata.org/entity/Q135911878> owl:sameAs <http://www.wikidata.org/entity/Q101072288> .
+
 <http://www.wikidata.org/entity/Q14417> rdfs:label "Asajj Ventress"@en ;
     schema1:description "fictional character in the Star Wars universe"@en ;
     wdt:P1165 <http://www.wikidata.org/entity/Q5799688> .
@@ -5948,7 +6023,7 @@
     wdt:P1165 <http://www.wikidata.org/entity/Q3200609> .
 
 <http://www.wikidata.org/entity/Q21515016> rdfs:label "Kylo Ren"@en ;
-    schema1:description "Star Wars character"@en ;
+    schema1:description "Star Wars character, former Supreme Leader of the First Order and former King of Naboo"@en ;
     wdt:P1165 <http://www.wikidata.org/entity/Q2519556> .
 
 <http://www.wikidata.org/entity/Q21649585> owl:sameAs <http://www.wikidata.org/entity/Q1193079> .
@@ -6136,6 +6211,7 @@
 <http://www.wikidata.org/entity/Q27970919> rdfs:label "Cassian Andor"@en ;
     schema1:description "character from Star Wars"@en ;
     wdt:P1165 <http://www.wikidata.org/entity/Q114109053> ;
+    wdt:P19 <http://www.wikidata.org/entity/Q114109053> ;
     wdt:P20 <http://www.wikidata.org/entity/Q29413748> .
 
 <http://www.wikidata.org/entity/Q28039491> rdfs:label "Chirrut Îmwe"@en ;
@@ -6337,6 +6413,11 @@
     schema1:description "fictional character from the Star Wars universe"@en ;
     wdt:P1165 <http://www.wikidata.org/entity/Q719329> .
 
+<http://www.wikidata.org/entity/Q51755> rdfs:label "Ahsoka Tano"@en ;
+    schema1:description "fictional character from Star Wars"@en ;
+    wdt:P19 <http://www.wikidata.org/entity/Q12816004> ;
+    wdt:P20 <http://www.wikidata.org/entity/Q122388392> .
+
 <http://www.wikidata.org/entity/Q51759> rdfs:label "Xanatos"@en ;
     schema1:description "fictional character in the Star Wars universe"@en ;
     wdt:P20 <http://www.wikidata.org/entity/Q2259589> .
@@ -6347,6 +6428,7 @@
 
 <http://www.wikidata.org/entity/Q51766> rdfs:label "Darth Maul"@en ;
     schema1:description "fictional character from the Star Wars universe"@en ;
+    wdt:P19 <http://www.wikidata.org/entity/Q5799688> ;
     wdt:P20 <http://www.wikidata.org/entity/Q723764> .
 
 <http://www.wikidata.org/entity/Q51770> rdfs:label "Palpatine"@en ;
@@ -6367,7 +6449,7 @@
     wdt:P1071 <http://www.wikidata.org/entity/Q723764> .
 
 <http://www.wikidata.org/entity/Q51789> rdfs:label "Padmé Amidala"@en ;
-    schema1:description "fictional character in the Star Wars universe"@en ;
+    schema1:description "fictional character in the Star Wars universe and Queen of Naboo"@en ;
     wdt:P1165 <http://www.wikidata.org/entity/Q257155> ;
     wdt:P20 <http://www.wikidata.org/entity/Q3225233> .
 
@@ -6408,7 +6490,8 @@
 
 <http://www.wikidata.org/entity/Q51803> rdfs:label "Chewbacca"@en ;
     schema1:description "fictional character from Star Wars"@en ;
-    wdt:P1165 <http://www.wikidata.org/entity/Q754143> .
+    wdt:P1165 <http://www.wikidata.org/entity/Q754143> ;
+    wdt:P19 <http://www.wikidata.org/entity/Q754143> .
 
 <http://www.wikidata.org/entity/Q51804> rdfs:label "Shmi Skywalker"@en ;
     schema1:description "character in Star Wars"@en ;
@@ -6625,6 +6708,8 @@
 
 <http://www.wikidata.org/entity/statement/P1071-9e11c66e-43bb-7e4f-b0b5-f2d72c7aff48> pq:P1071 <http://www.wikidata.org/entity/Q723764> .
 
+<http://www.wikidata.org/entity/statement/P1619-dc8e0b4c-40db-6394-127b-117bc44d1865> pq:P2303 <http://www.wikidata.org/entity/Q101072288> .
+
 <http://www.wikidata.org/entity/statement/Q10003606-9e28ea4d-4e69-e5c5-d816-1caa087f6875> ps:P301 <http://www.wikidata.org/entity/Q719329> .
 
 <http://www.wikidata.org/entity/statement/Q1006293-e4e097ed-42d7-f4e9-1997-4a69f13f7740> ps:P36 <http://www.wikidata.org/entity/Q117709675> .
@@ -6673,7 +6758,7 @@
 
 <http://www.wikidata.org/entity/statement/Q104632113-19677ead-470e-5de4-e6dc-30e5753dd7d1> ps:P1165 <http://www.wikidata.org/entity/Q752192> .
 
-<http://www.wikidata.org/entity/statement/Q104632113-68c35745-4825-edac-8089-067e46ad2605> pq:P642 <http://www.wikidata.org/entity/Q752192> .
+<http://www.wikidata.org/entity/statement/Q104632113-68c35745-4825-edac-8089-067e46ad2605> pq:P1001 <http://www.wikidata.org/entity/Q752192> .
 
 <http://www.wikidata.org/entity/statement/Q104836850-343a3975-421a-8518-fc17-756a15f034b4> ps:P397 <http://www.wikidata.org/entity/Q832100> .
 
@@ -6923,6 +7008,8 @@
 
 <http://www.wikidata.org/entity/statement/Q125307868-A344F3BE-9C31-439D-8145-0559D293C636> ps:P144 <http://www.wikidata.org/entity/Q739771> .
 
+<http://www.wikidata.org/entity/statement/Q12539846-c3b51715-43c2-037e-edad-ec489a188a6f> ps:P1889 <http://www.wikidata.org/entity/Q848609> .
+
 <http://www.wikidata.org/entity/statement/Q12813767-b57fa31e-4376-8a5e-5286-e74811ac4a2c> ps:P1165 <http://www.wikidata.org/entity/Q106463724> .
 
 <http://www.wikidata.org/entity/statement/Q12814830-f705e7cb-4ee2-3e74-b487-29353882bdf6> ps:P183 <http://www.wikidata.org/entity/Q257155> .
@@ -6930,6 +7017,8 @@
 <http://www.wikidata.org/entity/statement/Q131705893-980a0a2a-4c14-ac8e-4b9e-5cde1811e64f> ps:P840 <http://www.wikidata.org/entity/Q131706086> .
 
 <http://www.wikidata.org/entity/statement/Q13477786-d7d95490-44d9-ec1f-2a4b-441d93da675a> ps:P1165 <http://www.wikidata.org/entity/Q832994> .
+
+<http://www.wikidata.org/entity/statement/Q135390537-2ed686cd-424e-6a53-b943-22a7e89ad3c2> ps:P20 <http://www.wikidata.org/entity/Q125257781> .
 
 <http://www.wikidata.org/entity/statement/Q14417-4fc3fa02-4af2-ab74-3f89-07e153b6504e> ps:P1165 <http://www.wikidata.org/entity/Q5799688> .
 
@@ -7152,6 +7241,8 @@
 
 <http://www.wikidata.org/entity/statement/Q2745835-fccd9caf-41ee-9982-ddee-23e37a1d6202> ps:P1165 <http://www.wikidata.org/entity/Q6151586> .
 
+<http://www.wikidata.org/entity/statement/Q27970919-9c2e7d0e-4501-d5c3-be53-b5a12eaab982> ps:P19 <http://www.wikidata.org/entity/Q114109053> .
+
 <http://www.wikidata.org/entity/statement/Q27970919-dbc6f8ac-4647-348d-d0d8-af9bde7eb2dc> ps:P1165 <http://www.wikidata.org/entity/Q114109053> .
 
 <http://www.wikidata.org/entity/statement/Q27970919-e80058d4-49cf-cd93-0a90-6b0ccf091946> ps:P20 <http://www.wikidata.org/entity/Q29413748> .
@@ -7302,9 +7393,15 @@
 
 <http://www.wikidata.org/entity/statement/Q51748-F5A4503D-9B52-4900-A469-367737F60A71> ps:P1165 <http://www.wikidata.org/entity/Q719329> .
 
+<http://www.wikidata.org/entity/statement/Q51755-b0a853cf-4bf7-8279-a413-3f8b55375fc6> ps:P20 <http://www.wikidata.org/entity/Q122388392> .
+
+<http://www.wikidata.org/entity/statement/Q51755-b387b33a-46d9-2908-0287-93083f1f8bb7> ps:P19 <http://www.wikidata.org/entity/Q12816004> .
+
 <http://www.wikidata.org/entity/statement/Q51759-0f50b394-4bb4-0a73-6135-f0aab517426f> ps:P20 <http://www.wikidata.org/entity/Q2259589> .
 
 <http://www.wikidata.org/entity/statement/Q51761-B2191FED-747E-4728-A0E3-3DA699D0ED15> ps:P1165 <http://www.wikidata.org/entity/Q754143> .
+
+<http://www.wikidata.org/entity/statement/Q51766-85cb4739-40e3-66ab-7016-bd6f42a96b5a> ps:P19 <http://www.wikidata.org/entity/Q5799688> .
 
 <http://www.wikidata.org/entity/statement/Q51766-f1b7595d-439c-3a25-516f-124e1399e2fe> ps:P20 <http://www.wikidata.org/entity/Q723764> .
 
@@ -7355,6 +7452,10 @@
 <http://www.wikidata.org/entity/statement/Q51802-ddced38a-4a73-6c63-e889-4d8ccb6d186e> ps:P1165 <http://www.wikidata.org/entity/Q1079899> .
 
 <http://www.wikidata.org/entity/statement/Q51803-3FBA8583-FDEA-46B7-BB23-F3288967330A> ps:P1165 <http://www.wikidata.org/entity/Q754143> .
+
+<http://www.wikidata.org/entity/statement/Q51803-93610aec-45c4-6b9d-eede-91aaec021174> ps:P20 <http://www.wikidata.org/entity/Q122534060> .
+
+<http://www.wikidata.org/entity/statement/Q51803-f107979d-4ac6-cd55-8c49-715062739216> ps:P19 <http://www.wikidata.org/entity/Q754143> .
 
 <http://www.wikidata.org/entity/statement/Q51804-7D986726-9D3E-41AD-940C-03DBD1CA10BE> ps:P1165 <http://www.wikidata.org/entity/Q723764> .
 
@@ -7431,6 +7532,16 @@
 <http://www.wikidata.org/entity/statement/Q5723036-6888AC81-20FA-4098-A756-BA472419521A> ps:P276 <http://www.wikidata.org/entity/Q257155> .
 
 <http://www.wikidata.org/entity/statement/Q5723223-08726B7E-594C-4A01-9697-54232728E38D> ps:P276 <http://www.wikidata.org/entity/Q257155> .
+
+<http://www.wikidata.org/entity/statement/Q60462338-4d8d1db4-420a-7c5a-c183-d4ac9ae362ee> ps:P840 <http://www.wikidata.org/entity/Q132184676> .
+
+<http://www.wikidata.org/entity/statement/Q60462338-69314e28-438e-6bf8-71c4-f22290f9388a> ps:P840 <http://www.wikidata.org/entity/Q114108982> .
+
+<http://www.wikidata.org/entity/statement/Q60462338-9276f37a-450b-423e-8ac0-bbc6f2636257> ps:P840 <http://www.wikidata.org/entity/Q122681888> .
+
+<http://www.wikidata.org/entity/statement/Q60462338-93f321e8-4cb9-1836-0ad5-421685eacda0> ps:P840 <http://www.wikidata.org/entity/Q719329> .
+
+<http://www.wikidata.org/entity/statement/Q60462338-d204f227-4ea0-d90d-533f-3d1009f310ac> ps:P840 <http://www.wikidata.org/entity/Q2519556> .
 
 <http://www.wikidata.org/entity/statement/Q6074-10613eba-42d7-2715-cd6c-41043d749d5c> ps:P840 <http://www.wikidata.org/entity/Q54350080> .
 
@@ -8158,6 +8269,8 @@
 
 <https://gl.wikipedia.org/wiki/Hoth> schema1:about <http://www.wikidata.org/entity/Q739771> .
 
+<https://he.wikipedia.org/wiki/%D7%98%D7%98%D7%95%D7%90%D7%99%D7%9F> schema1:about <http://www.wikidata.org/entity/Q723764> .
+
 <https://hu.wikipedia.org/wiki/Ahch-To> schema1:about <http://www.wikidata.org/entity/Q22976917> .
 
 <https://hu.wikipedia.org/wiki/Alderaan> schema1:about <http://www.wikidata.org/entity/Q752192> .
@@ -8434,6 +8547,8 @@
 
 <https://pl.wikipedia.org/wiki/Kalamar> schema1:about <http://www.wikidata.org/entity/Q1086145> .
 
+<https://pl.wikipedia.org/wiki/Kamino> schema1:about <http://www.wikidata.org/entity/Q832994> .
+
 <https://pl.wikipedia.org/wiki/Kashyyyk> schema1:about <http://www.wikidata.org/entity/Q754143> .
 
 <https://pl.wikipedia.org/wiki/Korelia> schema1:about <http://www.wikidata.org/entity/Q1079899> .
@@ -8513,6 +8628,8 @@
 <https://simple.wikipedia.org/wiki/Alderaan> schema1:about <http://www.wikidata.org/entity/Q752192> .
 
 <https://simple.wikipedia.org/wiki/Coruscant> schema1:about <http://www.wikidata.org/entity/Q719329> .
+
+<https://simple.wikipedia.org/wiki/Geonosis> schema1:about <http://www.wikidata.org/entity/Q837357> .
 
 <https://simple.wikipedia.org/wiki/Hoth> schema1:about <http://www.wikidata.org/entity/Q739771> .
 
@@ -8649,6 +8766,8 @@
 <https://uk.wikipedia.org/wiki/%D0%9A%D0%B5%D0%B9%D1%82%D0%BE-%D0%9D%D0%B5%D0%B9%D0%BC%D0%BE%D0%B4%D1%96%D1%8F> schema1:about <http://www.wikidata.org/entity/Q2737940> .
 
 <https://uk.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D1%83%D1%81%D0%B0%D0%BD%D1%82> schema1:about <http://www.wikidata.org/entity/Q719329> .
+
+<https://uk.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BD%D0%B4%D0%B0%D0%BB%D0%BE%D1%80> schema1:about <http://www.wikidata.org/entity/Q2152457> .
 
 <https://uk.wikipedia.org/wiki/%D0%9C%D1%83%D1%81%D1%82%D0%B0%D1%84%D0%B0%D1%80> schema1:about <http://www.wikidata.org/entity/Q828551> .
 
@@ -8815,14 +8934,6 @@
     wdt:P276 <http://www.wikidata.org/entity/Q122042239> ;
     wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
     wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
-
-<http://www.wikidata.org/entity/Q122388392> rdfs:label "Mortis"@en ;
-    schema1:description "Star Wars planet"@en ;
-    wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
-        <http://www.wikidata.org/entity/Q3551295> ;
-    wdt:P276 <http://www.wikidata.org/entity/Q122167574> ;
-    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
-    wdt:P361 <http://www.wikidata.org/entity/Q106381685> .
 
 <http://www.wikidata.org/entity/Q122388558> rdfs:label "Muunilinst"@en ;
     schema1:description "Star Wars planet"@en ;
@@ -9088,6 +9199,15 @@
     schema1:description "fictional city in Star Wars"@en ;
     wdt:P376 <http://www.wikidata.org/entity/Q837941> .
 
+<http://www.wikidata.org/entity/Q101072288> rdfs:label "Earth"@en ;
+    schema1:description "planet Earth as depicted in the Star Wars universe"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q19786052> ;
+    wdt:P1441 <http://www.wikidata.org/entity/Q3496988>,
+        <http://www.wikidata.org/entity/Q55265>,
+        <http://www.wikidata.org/entity/Q63228477> ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870>,
+        <http://www.wikidata.org/entity/Q5327160> .
+
 <http://www.wikidata.org/entity/Q104626837> rdfs:label "Csilla"@en ;
     schema1:description "fictional planet in the Star Wars universe"@en ;
     wdt:P1080 <http://www.wikidata.org/entity/Q19786052> ;
@@ -9132,13 +9252,6 @@
     wdt:P1441 <http://www.wikidata.org/entity/Q56876444>,
         <http://www.wikidata.org/entity/Q75051348> ;
     wdt:P31 <http://www.wikidata.org/entity/Q108059870> .
-
-<http://www.wikidata.org/entity/Q114109053> rdfs:label "Kenari"@en ;
-    schema1:description "fictional planet from Star Wars"@en ;
-    wdt:P1080 <http://www.wikidata.org/entity/Q19786052> ;
-    wdt:P1441 <http://www.wikidata.org/entity/Q60462338> ;
-    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
-    wdt:P361 <http://www.wikidata.org/entity/Q106379955> .
 
 <http://www.wikidata.org/entity/Q117709675> rdfs:label "Raxus"@en ;
     schema1:description "fictional planet in the Star Wars universe"@en ;
@@ -9188,11 +9301,43 @@
     wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
     wdt:P361 <http://www.wikidata.org/entity/Q3931954> .
 
+<http://www.wikidata.org/entity/Q122534060> rdfs:label "Sernpidal"@en ;
+    schema1:description "Star Wars planet"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
+        <http://www.wikidata.org/entity/Q3551295> ;
+    wdt:P1082 8000000.0 ;
+    wdt:P1441 <http://www.wikidata.org/entity/Q2743959> ;
+    wdt:P2146 463.0 ;
+    wdt:P2147 29.0 ;
+    wdt:P2386 11440.0 ;
+    wdt:P276 <http://www.wikidata.org/entity/Q122169819> ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
+    wdt:P361 <http://www.wikidata.org/entity/Q106380942>,
+        <http://www.wikidata.org/entity/Q7542043> .
+
+<http://www.wikidata.org/entity/Q122681888> rdfs:label "Ghorman"@en ;
+    schema1:description "Star Wars planet"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
+        <http://www.wikidata.org/entity/Q3551295> ;
+    wdt:P276 <http://www.wikidata.org/entity/Q122169846> ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
+    wdt:P361 <http://www.wikidata.org/entity/Q106382356> .
+
 <http://www.wikidata.org/entity/Q122828933> rdfs:label "Orooturoo"@en ;
     schema1:description "fictional planet in the Star Wars universe"@en ;
     wdt:P1080 <http://www.wikidata.org/entity/Q19786052> ;
     wdt:P31 <http://www.wikidata.org/entity/Q108059870>,
         <http://www.wikidata.org/entity/Q2775969> .
+
+<http://www.wikidata.org/entity/Q125257781> rdfs:label "Ambria"@en ;
+    schema1:description "planet in Star Wars"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
+        <http://www.wikidata.org/entity/Q3551295> ;
+    wdt:P2146 176.0 ;
+    wdt:P2147 32.0 ;
+    wdt:P276 <http://www.wikidata.org/entity/Q122231415> ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
+    wdt:P361 <http://www.wikidata.org/entity/Q106398240> .
 
 <http://www.wikidata.org/entity/Q131706086> rdfs:label "At Attin"@en ;
     schema1:description "Star Wars planet"@en ;
@@ -9203,6 +9348,13 @@
         <http://www.wikidata.org/entity/Q128207>,
         <http://www.wikidata.org/entity/Q2775969> ;
     wdt:P361 <http://www.wikidata.org/entity/Q5170221> .
+
+<http://www.wikidata.org/entity/Q132184676> rdfs:label "Aldhani"@en ;
+    schema1:description "fictional planet in the Star Wars universe"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q19786052> ;
+    wdt:P1441 <http://www.wikidata.org/entity/Q60462338> ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
+    wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
 
 <http://www.wikidata.org/entity/Q17738> rdfs:label "Star Wars: Episode IV – A New Hope"@en ;
     schema1:description "1977 film directed by George Lucas"@en ;
@@ -9296,7 +9448,7 @@
         <http://www.wikidata.org/entity/Q112620245> ;
     wdt:P31 <http://www.wikidata.org/entity/Q108059870>,
         <http://www.wikidata.org/entity/Q108059912> ;
-    wdt:P397 <http://www.wikidata.org/.well-known/genid/f588f33927e8590526c78df8bbf8c0b6> .
+    wdt:P397 <http://www.wikidata.org/.well-known/genid/98dbcc372c491670dcd994f6fbb21d59> .
 
 <http://www.wikidata.org/entity/Q112704136> rdfs:label "Star Wars Jedi: Survivor"@en ;
     schema1:description "2023 video game developed by Respawn Entertainment"@en ;
@@ -9332,6 +9484,14 @@
     wdt:P2146 286.0 ;
     wdt:P2147 14.0 ;
     wdt:P276 <http://www.wikidata.org/entity/Q122167241> ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
+    wdt:P361 <http://www.wikidata.org/entity/Q106381685> .
+
+<http://www.wikidata.org/entity/Q122388392> rdfs:label "Mortis"@en ;
+    schema1:description "Star Wars planet"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
+        <http://www.wikidata.org/entity/Q3551295> ;
+    wdt:P276 <http://www.wikidata.org/entity/Q122167574> ;
     wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
     wdt:P361 <http://www.wikidata.org/entity/Q106381685> .
 
@@ -9474,12 +9634,12 @@
     wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
     wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
 
-<http://www.wikidata.org/entity/Q114108982> rdfs:label "Ferrix"@en ;
+<http://www.wikidata.org/entity/Q114109053> rdfs:label "Kenari"@en ;
     schema1:description "fictional planet from Star Wars"@en ;
     wdt:P1080 <http://www.wikidata.org/entity/Q19786052> ;
     wdt:P1441 <http://www.wikidata.org/entity/Q60462338> ;
     wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
-    wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
+    wdt:P361 <http://www.wikidata.org/entity/Q106379955> .
 
 <http://www.wikidata.org/entity/Q120734519> rdfs:label "Qalydon"@en ;
     schema1:description "fictional planet of Star Wars"@en ;
@@ -9578,14 +9738,6 @@
         <http://www.wikidata.org/entity/Q108059912>,
         <http://www.wikidata.org/entity/Q108060255> .
 
-<http://www.wikidata.org/entity/Q12816004> rdfs:label "Shili"@en ;
-    schema1:description "fictional planet in the Star Wars universe"@en ;
-    wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
-        <http://www.wikidata.org/entity/Q3551295> ;
-    wdt:P276 <http://www.wikidata.org/entity/Q122169835> ;
-    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
-    wdt:P361 <http://www.wikidata.org/entity/Q106382135> .
-
 <http://www.wikidata.org/entity/Q131751635> rdfs:label "Ossus"@en ;
     schema1:description "planet in Star Wars"@en ;
     wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
@@ -9606,7 +9758,8 @@
     wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
         <http://www.wikidata.org/entity/Q3551295> ;
     wdt:P1082 807000000.0 ;
-    wdt:P1441 <http://www.wikidata.org/entity/Q54307> ;
+    wdt:P1441 <http://www.wikidata.org/entity/Q54307>,
+        <http://www.wikidata.org/entity/Q55313> ;
     wdt:P2146 408.0 ;
     wdt:P2147 22.0 ;
     wdt:P276 <http://www.wikidata.org/entity/Q122333413> ;
@@ -9678,6 +9831,13 @@
         <http://www.wikidata.org/entity/Q108059912> ;
     wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
 
+<http://www.wikidata.org/entity/Q114108982> rdfs:label "Ferrix"@en ;
+    schema1:description "fictional planet from Star Wars"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q19786052> ;
+    wdt:P1441 <http://www.wikidata.org/entity/Q60462338> ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
+    wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
+
 <http://www.wikidata.org/entity/Q122387752> rdfs:label "Glee Anselm"@en ;
     schema1:description "Star Wars planet"@en ;
     wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
@@ -9733,6 +9893,7 @@
         <http://www.wikidata.org/entity/Q27038847>,
         <http://www.wikidata.org/entity/Q29154231>,
         <http://www.wikidata.org/entity/Q36866211>,
+        <http://www.wikidata.org/entity/Q55313>,
         <http://www.wikidata.org/entity/Q71429337>,
         <http://www.wikidata.org/entity/Q7743075>,
         <http://www.wikidata.org/entity/Q86661406> ;
@@ -9784,6 +9945,14 @@
     wdt:P31 <http://www.wikidata.org/entity/Q108059870>,
         <http://www.wikidata.org/entity/Q128207> ;
     wdt:P361 <http://www.wikidata.org/entity/Q106382101> .
+
+<http://www.wikidata.org/entity/Q12816004> rdfs:label "Shili"@en ;
+    schema1:description "fictional planet in the Star Wars universe"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
+        <http://www.wikidata.org/entity/Q3551295> ;
+    wdt:P276 <http://www.wikidata.org/entity/Q122169835> ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
+    wdt:P361 <http://www.wikidata.org/entity/Q106382135> .
 
 <http://www.wikidata.org/entity/Q2256035> rdfs:label "Taris"@en ;
     schema1:description "planet in Star Wars"@en ;
@@ -9949,6 +10118,14 @@
         <http://www.wikidata.org/entity/Q2775969> ;
     wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
 
+<http://www.wikidata.org/entity/Q60462338> rdfs:label "Andor"@en ;
+    schema1:description "American streaming television series"@en ;
+    wdt:P840 <http://www.wikidata.org/entity/Q114108982>,
+        <http://www.wikidata.org/entity/Q122681888>,
+        <http://www.wikidata.org/entity/Q132184676>,
+        <http://www.wikidata.org/entity/Q2519556>,
+        <http://www.wikidata.org/entity/Q719329> .
+
 <http://www.wikidata.org/entity/Q94572994> rdfs:label "Exegol"@en ;
     schema1:description "fictional planet in Star Wars"@en ;
     wdt:P1080 <http://www.wikidata.org/entity/Q19786052> ;
@@ -10030,23 +10207,6 @@
     wdt:P840 <http://www.wikidata.org/entity/Q723764>,
         <http://www.wikidata.org/entity/Q752192> .
 
-<http://www.wikidata.org/entity/Q2152457> rdfs:label "Mandalore"@en ;
-    schema1:description "fictional planet in the Star Wars universe"@en ;
-    wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
-        <http://www.wikidata.org/entity/Q3551295> ;
-    wdt:P1082 4000000.0 ;
-    wdt:P1441 <http://www.wikidata.org/entity/Q104153367>,
-        <http://www.wikidata.org/entity/Q104396610>,
-        <http://www.wikidata.org/entity/Q28787>,
-        <http://www.wikidata.org/entity/Q56876444>,
-        <http://www.wikidata.org/entity/Q632672> ;
-    wdt:P2146 366.0 ;
-    wdt:P2147 19.0 ;
-    wdt:P2386 9200.0 ;
-    wdt:P276 <http://www.wikidata.org/entity/Q122231411> ;
-    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
-    wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
-
 <http://www.wikidata.org/entity/Q2482721> rdfs:label "Malachor V"@en ;
     schema1:description "fictional planet in Star Wars"@en ;
     wdt:P1080 <http://www.wikidata.org/entity/Q3551295> ;
@@ -10112,6 +10272,23 @@
     wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
     wdt:P361 <http://www.wikidata.org/entity/Q106382135> .
 
+<http://www.wikidata.org/entity/Q2152457> rdfs:label "Mandalore"@en ;
+    schema1:description "fictional planet in the Star Wars universe"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
+        <http://www.wikidata.org/entity/Q3551295> ;
+    wdt:P1082 4000000.0 ;
+    wdt:P1441 <http://www.wikidata.org/entity/Q104153367>,
+        <http://www.wikidata.org/entity/Q104396610>,
+        <http://www.wikidata.org/entity/Q28787>,
+        <http://www.wikidata.org/entity/Q56876444>,
+        <http://www.wikidata.org/entity/Q632672> ;
+    wdt:P2146 366.0 ;
+    wdt:P2147 19.0 ;
+    wdt:P2386 9200.0 ;
+    wdt:P276 <http://www.wikidata.org/entity/Q122231411> ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
+    wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
+
 <http://www.wikidata.org/entity/Q21996291> rdfs:label "Starkiller Base (Ilum)"@en ;
     schema1:description "fictional location in the Star Wars universe"@en ;
     wdt:P1080 <http://www.wikidata.org/entity/Q19786052> ;
@@ -10138,7 +10315,8 @@
         <http://www.wikidata.org/entity/Q3551295> ;
     wdt:P1441 <http://www.wikidata.org/entity/Q181803>,
         <http://www.wikidata.org/entity/Q20977110>,
-        <http://www.wikidata.org/entity/Q29154231> ;
+        <http://www.wikidata.org/entity/Q29154231>,
+        <http://www.wikidata.org/entity/Q55313> ;
     wdt:P2146 402.0 ;
     wdt:P2147 30.0 ;
     wdt:P2386 148000.0 ;
@@ -10222,19 +10400,6 @@
     wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
     wdt:P361 <http://www.wikidata.org/entity/Q106379955> .
 
-<http://www.wikidata.org/entity/Q2519556> rdfs:label "Chandrila"@en ;
-    schema1:description "fictional planet in the Star Wars universe"@en ;
-    wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
-        <http://www.wikidata.org/entity/Q3551295> ;
-    wdt:P1082 1200000000.0 ;
-    wdt:P1441 <http://www.wikidata.org/entity/Q55295> ;
-    wdt:P2146 368.0 ;
-    wdt:P2147 20.0 ;
-    wdt:P2386 13500.0 ;
-    wdt:P276 <http://www.wikidata.org/entity/Q122169838> ;
-    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
-    wdt:P361 <http://www.wikidata.org/entity/Q5170221> .
-
 <http://www.wikidata.org/entity/Q22976917> rdfs:label "Ahch-To"@en ;
     schema1:description "fictional planet in Star Wars"@en ;
     wdt:P1080 <http://www.wikidata.org/entity/Q19786052> ;
@@ -10248,6 +10413,19 @@
     wdt:P276 <http://www.wikidata.org/entity/Q121863228> ;
     wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
     wdt:P361 <http://www.wikidata.org/entity/Q3931954> .
+
+<http://www.wikidata.org/entity/Q2519556> rdfs:label "Chandrila"@en ;
+    schema1:description "fictional planet in the Star Wars universe"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
+        <http://www.wikidata.org/entity/Q3551295> ;
+    wdt:P1082 1200000000.0 ;
+    wdt:P1441 <http://www.wikidata.org/entity/Q55295> ;
+    wdt:P2146 368.0 ;
+    wdt:P2147 20.0 ;
+    wdt:P2386 13500.0 ;
+    wdt:P276 <http://www.wikidata.org/entity/Q122169838> ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
+    wdt:P361 <http://www.wikidata.org/entity/Q5170221> .
 
 <http://www.wikidata.org/entity/Q21601024> rdfs:label "Jakku"@en ;
     schema1:description "fictional desert planet featured in the Star Wars universe"@en ;
@@ -10330,6 +10508,24 @@
     wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
     wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
 
+<http://www.wikidata.org/entity/Q6598255> rdfs:label "Ryloth"@en ;
+    schema1:description "planet in the Star Wars universe"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
+        <http://www.wikidata.org/entity/Q3551295> ;
+    wdt:P1082 1500000000.0 ;
+    wdt:P1441 <http://www.wikidata.org/entity/Q19833870>,
+        <http://www.wikidata.org/entity/Q24034513>,
+        <http://www.wikidata.org/entity/Q24521139>,
+        <http://www.wikidata.org/entity/Q26157980>,
+        <http://www.wikidata.org/entity/Q26897545>,
+        <http://www.wikidata.org/entity/Q29154231> ;
+    wdt:P2146 305.0 ;
+    wdt:P2147 30.0 ;
+    wdt:P2386 10600.0 ;
+    wdt:P276 <http://www.wikidata.org/entity/Q122333448> ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
+    wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
+
 <http://www.wikidata.org/entity/Q5799688> rdfs:label "Dathomir"@en ;
     schema1:description "fictional planet in the Star Wars universe"@en ;
     wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
@@ -10347,24 +10543,6 @@
     wdt:P276 <http://www.wikidata.org/entity/Q122231410> ;
     wdt:P31 <http://www.wikidata.org/entity/Q108059870>,
         <http://www.wikidata.org/entity/Q108060311> ;
-    wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
-
-<http://www.wikidata.org/entity/Q6598255> rdfs:label "Ryloth"@en ;
-    schema1:description "planet in the Star Wars universe"@en ;
-    wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
-        <http://www.wikidata.org/entity/Q3551295> ;
-    wdt:P1082 1500000000.0 ;
-    wdt:P1441 <http://www.wikidata.org/entity/Q19833870>,
-        <http://www.wikidata.org/entity/Q24034513>,
-        <http://www.wikidata.org/entity/Q24521139>,
-        <http://www.wikidata.org/entity/Q26157980>,
-        <http://www.wikidata.org/entity/Q26897545>,
-        <http://www.wikidata.org/entity/Q29154231> ;
-    wdt:P2146 305.0 ;
-    wdt:P2147 30.0 ;
-    wdt:P2386 10600.0 ;
-    wdt:P276 <http://www.wikidata.org/entity/Q122333448> ;
-    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
     wdt:P361 <http://www.wikidata.org/entity/Q7542043> .
 
 <http://www.wikidata.org/entity/Q837941> rdfs:label "Bespin"@en ;
@@ -10437,6 +10615,26 @@
         <http://www.wikidata.org/entity/Q7542043> ;
     wdt:P397 <http://www.wikidata.org/entity/Q110902079> .
 
+<http://www.wikidata.org/entity/Q832994> rdfs:label "Kamino"@en ;
+    schema1:description "fictional planet in the Star Wars universe"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q19786052> ;
+    wdt:P1082 1000000000.0 ;
+    wdt:P1441 <http://www.wikidata.org/entity/Q104396610>,
+        <http://www.wikidata.org/entity/Q181069>,
+        <http://www.wikidata.org/entity/Q29154231>,
+        <http://www.wikidata.org/entity/Q54844>,
+        <http://www.wikidata.org/entity/Q54865>,
+        <http://www.wikidata.org/entity/Q632672>,
+        <http://www.wikidata.org/entity/Q862542> ;
+    wdt:P2146 463.0 ;
+    wdt:P2147 27.0 ;
+    wdt:P2386 19270.0 ;
+    wdt:P276 <http://www.wikidata.org/entity/Q122065371> ;
+    wdt:P2927 100.0 ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870>,
+        <http://www.wikidata.org/entity/Q98807723> ;
+    wdt:P361 <http://www.wikidata.org/entity/Q106381685> .
+
 <http://www.wikidata.org/entity/Q837357> rdfs:label "Geonosis"@en ;
     schema1:description "fictional planet from the Star Wars universe"@en ;
     wdt:P1080 <http://www.wikidata.org/entity/Q3551295> ;
@@ -10481,25 +10679,31 @@
     wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
     wdt:P361 <http://www.wikidata.org/entity/Q106379955> .
 
-<http://www.wikidata.org/entity/Q832994> rdfs:label "Kamino"@en ;
-    schema1:description "fictional planet in the Star Wars universe"@en ;
-    wdt:P1080 <http://www.wikidata.org/entity/Q19786052> ;
-    wdt:P1082 1000000000.0 ;
-    wdt:P1441 <http://www.wikidata.org/entity/Q104396610>,
-        <http://www.wikidata.org/entity/Q181069>,
+<http://www.wikidata.org/entity/Q739771> rdfs:label "Hoth"@en ;
+    schema1:description "fictional ice planet in the universe of Star Wars"@en ;
+    wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
+        <http://www.wikidata.org/entity/Q3551295> ;
+    wdt:P1082 10.0 ;
+    wdt:P1441 <http://www.wikidata.org/entity/Q181795>,
         <http://www.wikidata.org/entity/Q29154231>,
-        <http://www.wikidata.org/entity/Q54844>,
-        <http://www.wikidata.org/entity/Q54865>,
-        <http://www.wikidata.org/entity/Q632672>,
-        <http://www.wikidata.org/entity/Q862542> ;
-    wdt:P2146 463.0 ;
-    wdt:P2147 27.0 ;
-    wdt:P2386 19270.0 ;
-    wdt:P276 <http://www.wikidata.org/entity/Q122065371> ;
-    wdt:P2927 100.0 ;
-    wdt:P31 <http://www.wikidata.org/entity/Q108059870>,
-        <http://www.wikidata.org/entity/Q98807723> ;
-    wdt:P361 <http://www.wikidata.org/entity/Q106381685> .
+        <http://www.wikidata.org/entity/Q54304>,
+        <http://www.wikidata.org/entity/Q54307>,
+        <http://www.wikidata.org/entity/Q54329>,
+        <http://www.wikidata.org/entity/Q55259>,
+        <http://www.wikidata.org/entity/Q55263>,
+        <http://www.wikidata.org/entity/Q55272>,
+        <http://www.wikidata.org/entity/Q55295>,
+        <http://www.wikidata.org/entity/Q55313>,
+        <http://www.wikidata.org/entity/Q737308> ;
+    wdt:P2146 526.0 ;
+    wdt:P2147 23.0 ;
+    wdt:P2386 7200.0 ;
+    wdt:P276 <http://www.wikidata.org/entity/Q122167602> ;
+    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
+    wdt:P361 <http://www.wikidata.org/entity/Q110901681>,
+        <http://www.wikidata.org/entity/Q7542043> ;
+    wdt:P397 <http://www.wikidata.org/entity/Q110901685> ;
+    wdt:P527 <http://www.wikidata.org/entity/Q1094139> .
 
 <http://www.wikidata.org/entity/Q848609> rdfs:label "Dagobah"@en ;
     schema1:description "fictional planet in the Star Wars universe"@en ;
@@ -10519,31 +10723,6 @@
     wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
     wdt:P361 <http://www.wikidata.org/entity/Q7542043> ;
     wdt:P397 <http://www.wikidata.org/entity/Q110901797> .
-
-<http://www.wikidata.org/entity/Q739771> rdfs:label "Hoth"@en ;
-    schema1:description "fictional ice planet in the universe of Star Wars"@en ;
-    wdt:P1080 <http://www.wikidata.org/entity/Q19786052>,
-        <http://www.wikidata.org/entity/Q3551295> ;
-    wdt:P1082 10.0 ;
-    wdt:P1441 <http://www.wikidata.org/entity/Q181795>,
-        <http://www.wikidata.org/entity/Q29154231>,
-        <http://www.wikidata.org/entity/Q54304>,
-        <http://www.wikidata.org/entity/Q54307>,
-        <http://www.wikidata.org/entity/Q54329>,
-        <http://www.wikidata.org/entity/Q55259>,
-        <http://www.wikidata.org/entity/Q55263>,
-        <http://www.wikidata.org/entity/Q55272>,
-        <http://www.wikidata.org/entity/Q55295>,
-        <http://www.wikidata.org/entity/Q737308> ;
-    wdt:P2146 526.0 ;
-    wdt:P2147 23.0 ;
-    wdt:P2386 7200.0 ;
-    wdt:P276 <http://www.wikidata.org/entity/Q122167602> ;
-    wdt:P31 <http://www.wikidata.org/entity/Q108059870> ;
-    wdt:P361 <http://www.wikidata.org/entity/Q110901681>,
-        <http://www.wikidata.org/entity/Q7542043> ;
-    wdt:P397 <http://www.wikidata.org/entity/Q110901685> ;
-    wdt:P527 <http://www.wikidata.org/entity/Q1094139> .
 
 <http://www.wikidata.org/entity/Q752192> rdfs:label "Alderaan"@en ;
     schema1:description "fictional planet in the Star Wars Universe"@en ;
